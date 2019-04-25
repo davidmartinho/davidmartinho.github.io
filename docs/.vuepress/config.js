@@ -4,8 +4,11 @@ module.exports = {
   base: '/',
   dest: 'public',
   themeConfig: {
+      search: true,
       nav: [
-          { text: 'Home', link: '/' },
+        { text: 'Home', link: '/' },
+        { text: 'Blog', link: '/posts/' },
+        { text: 'About Me', link: '/about-me/' },
       ]
   }
 }
