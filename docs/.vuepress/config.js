@@ -3,6 +3,7 @@ module.exports = {
   description: 'David Martinho\'s Blog',
   base: '/',
   dest: 'public',
+  shouldPrefetch: false,
   themeConfig: {
       search: true,
       nav: [
